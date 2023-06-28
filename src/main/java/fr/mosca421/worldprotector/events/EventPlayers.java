@@ -102,7 +102,7 @@ public class EventPlayers {
 			if (region.getFlags().contains("item-drop")) {
 				event.setCanceled(true);
 				event.getPlayer().inventory.addItemStackToInventory(event.getEntityItem().getItem());
-				event.getPlayer().sendMessage(new TextComponentTranslation("world.drop.player"));
+				//event.getPlayer().sendMessage(new TextComponentTranslation("world.drop.player"));
 			}
 		}
 	}
